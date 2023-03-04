@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";const o={name:"Home",props:{production:{type:Boolean,default:!1}},mounted(){setTimeout(()=>{this.$share("测试一下啊")},3e3)}};function t(_,s,n,a,c,p){return null}const d=e(o,[["render",t],["__scopeId","data-v-0ec6424f"]]);export{d as default};
