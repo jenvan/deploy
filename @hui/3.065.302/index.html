@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading ...</title>
+  <script type="module" crossorigin src="https://preview.fuchijihua.com/@hui/3.065.302/assets/index-7c5e1bcf.js"></script>
+  <link rel="stylesheet" href="https://preview.fuchijihua.com/@hui/3.065.302/assets/index-841c7c7e.css">
+</head>
+<script type="text/javascript">
+  (function () {
+    if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+      handleFontSize();
+    }
+    if (document.addEventListener) {
+      document.addEventListener("WeixinJSBridgeReady", handleFontSize, false);
+    } else if (document.attachEvent) {
+      document.attachEvent("WeixinJSBridgeReady", handleFontSize);
+    }
+    function handleFontSize() {
+      WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize': 0 });
+      WeixinJSBridge.on('menu:setfont', function () {
+        WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize': 0 });
+      });
+    }
+  })();
+</script>
+<script type="text/javascript" src="//res2.wx.qq.com/open/js/jweixin-1.6.0.js" async></script>
+<script type="text/javascript" src="//unpkg.zhimg.com/lodash@4.17.21/lodash.min.js" async></script>
+
+<body>
+  <div id="app"></div>
+  
+</body>
+
+</html>
