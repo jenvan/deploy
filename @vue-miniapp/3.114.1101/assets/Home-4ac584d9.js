@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";const t={name:"Home",props:{production:{type:Boolean,default:!1}},created(){this.$router.push("/wallet")},methods:{}};function o(r,s,a,n,p,c){return null}const _=e(t,[["render",o]]);export{_ as default};
