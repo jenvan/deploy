@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";const o={name:"Home",props:{production:{type:Boolean,default:!1}},mounted(){setTimeout(()=>{this.$router.replace("collection")},300)}};function t(_,c,n,s,a,r){return null}const d=e(o,[["render",t],["__scopeId","data-v-c9d52a3b"]]);export{d as default};
